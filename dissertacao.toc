@@ -1,0 +1,21 @@
+\babel@toc {brazil}{}
+\contentsline {chapter}{\numberline {1}INTRODUÇÃO}{14}% 
+\contentsline {section}{\numberline {1.1}Motivação}{14}% 
+\contentsline {section}{\numberline {1.2}Desenvolvimento}{14}% 
+\contentsline {section}{\numberline {1.3}Mapa dos capítulos}{14}% 
+\contentsline {chapter}{\numberline {2}Experimento $\nu $-Angra}{15}% 
+\contentsline {section}{\numberline {2.1}Reator nuclear da usina Angra 2}{16}% 
+\contentsline {section}{\numberline {2.2}O detector $\nu $-Angra}{16}% 
+\contentsline {subsection}{\numberline {2.2.1}Sistemas de \emph {VETO}}{17}% 
+\contentsline {subsection}{\numberline {2.2.2}Detector alvo}{17}% 
+\contentsline {section}{\numberline {2.3}Eletrônicas de \emph {front-end} e aquisição}{17}% 
+\contentsline {chapter}{\numberline {3}Dados Reais}{18}% 
+\contentsline {subsection}{\numberline {3.0.1}Metodologia de análise dos dados do experimento}{18}% 
+\contentsline {subsection}{\numberline {3.0.2}Debug dos dados reais}{18}% 
+\contentsline {chapter}{\numberline {4}Simulação}{20}% 
+\contentsline {chapter}{\numberline {5}Resultados}{22}% 
+\contentsline {chapter}{\numberline {6}Conclusão}{23}% 
+\contentsline {section}{\numberline {6.1}Próximos Passos}{23}% 
+\contentsline {chapter}{Refer\^encias}{24}% 
+\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} A radiação de Cherenkov}{25}% 
+\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Qui-quadrado}{26}% 

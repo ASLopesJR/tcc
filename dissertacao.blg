@@ -1,0 +1,102 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Arch Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: dissertacao.aux
+A level-1 auxiliary file: ./pretextuais/capa.aux
+A level-1 auxiliary file: ./pretextuais/folha_de_rosto.aux
+A level-1 auxiliary file: ./pretextuais/ficha_catalografica.aux
+A level-1 auxiliary file: ./pretextuais/folha_de_aprovacao.aux
+A level-1 auxiliary file: ./pretextuais/dedicatoria.aux
+A level-1 auxiliary file: ./pretextuais/agradecimentos.aux
+A level-1 auxiliary file: ./pretextuais/resumo.aux
+A level-1 auxiliary file: ./pretextuais/abstract.aux
+A level-1 auxiliary file: ./pretextuais/acronimos.aux
+A level-1 auxiliary file: ./textuais/introducao/introducao.aux
+A level-1 auxiliary file: ./textuais/experimento/experimento.aux
+A level-1 auxiliary file: ./textuais/dadosreais/dadosreais.aux
+A level-1 auxiliary file: ./textuais/simulacao/simulacao.aux
+A level-1 auxiliary file: ./textuais/resultados/resultados.aux
+A level-1 auxiliary file: ./textuais/conclusao/conclusao.aux
+The style file: abnt-alf.bst
+A level-1 auxiliary file: ./postextuais/apendice/Cherenkov.aux
+I found no \citation commands---while reading file dissertacao.aux
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Database file #1: ./referencias/bibliografia.bib
+I was expecting a `,' or a `}'---line 301 of file ./referencias/bibliografia.bib
+ :   
+ :   url =          {http://home.cern/about/physics}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 309 of file ./referencias/bibliografia.bib
+ :   
+ :   url =          {http://mundoestranho.abril.com.br/materia/o-que-sao-os-aceleradores-de-particulas}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 328 of file ./referencias/bibliografia.bib
+ :   
+ :   url =          {http://www.cecm.usp.br/~caique/SM.html}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 654 of file ./referencias/bibliografia.bib
+ :   
+ :   url =          {http://www.iro.umontreal.ca/~bengioy/yoshua_en/research.html}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=8) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abnt-alf.bst versão 1.45.2.1           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+You've used 0 entries,
+            6480 wiz_defined-function locations,
+            1170 strings with 9664 characters,
+and the built_in function-call counts, 693 in all, are:
+= -- 186
+> -- 0
+< -- 0
++ -- 47
+- -- 0
+* -- 28
+:= -- 158
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 142
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 8
+num.names$ -- 0
+pop$ -- 26
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 40
+stack$ -- 1
+substring$ -- 45
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 2
+width$ -- 0
+write$ -- 8
+(There were 5 error messages)
