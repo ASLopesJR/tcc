@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.28)  29 NOV 2019 18:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.28)  30 NOV 2019 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -659,17 +659,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 Cap\'{\i }tulo 1.
 Package acronym Info: Label `acro:PMTs' newly defined as it shall be overridden
 
-although it is yet undefined on input line 12.
-) [14
+although it is yet undefined on input line 16.
+[14
 
 
 
-]
+]) [15]
 \openout2 = `./textuais/experimento/experimento.aux'.
 
  (./textuais/experimento/experimento.tex
 Cap\'{\i }tulo 2.
-<textuais/experimento/figuras/angra.png, id=61, 710.655pt x 688.974pt>
+<textuais/experimento/figuras/angra.png, id=65, 710.655pt x 688.974pt>
 File: textuais/experimento/figuras/angra.png Graphic file (type png)
 <use textuais/experimento/figuras/angra.png>
 Package pdftex.def Info: textuais/experimento/figuras/angra.png  used on input 
@@ -677,12 +677,12 @@ line 12.
 (pdftex.def)             Requested size: 284.52756pt x 275.84753pt.
 Package acronym Info: Label `acro:PWR' newly defined as it shall be overridden
 although it is yet undefined on input line 19.
-[15
+[16
 
 
 
  <./textuais/experimento/figuras/angra.png>]
-<textuais/experimento/figuras/detector.png, id=65, 1051.67906pt x 1095.3422pt>
+<textuais/experimento/figuras/detector.png, id=69, 1051.67906pt x 1095.3422pt>
 File: textuais/experimento/figuras/detector.png Graphic file (type png)
 <use textuais/experimento/figuras/detector.png>
 Package pdftex.def Info: textuais/experimento/figuras/detector.png  used on inp
@@ -693,76 +693,85 @@ LaTeX Font Info:    Trying to load font information for T1+aett on input line 3
 
 (/usr/share/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-) [16 <./textuais/experimento/figuras/detector.png>]
+) [17 <./textuais/experimento/figuras/detector.png>]
+Package acronym Info: Label `acro:p.e.' newly defined as it shall be overridden
+
+although it is yet undefined on input line 53.
 Package acronym Info: Label `acro:NDAQ' newly defined as it shall be overridden
 
-although it is yet undefined on input line 48.
-) [17]
+although it is yet undefined on input line 60.
+ [18]) [19]
 \openout2 = `./textuais/dadosreais/dadosreais.aux'.
 
  (./textuais/dadosreais/dadosreais.tex
 Cap\'{\i }tulo 3.
+<textuais/dadosreais/figuras/pedestal.png, id=86, 421.575pt x 316.18124pt>
+File: textuais/dadosreais/figuras/pedestal.png Graphic file (type png)
+<use textuais/dadosreais/figuras/pedestal.png>
+Package pdftex.def Info: textuais/dadosreais/figuras/pedestal.png  used on inpu
+t line 21.
+(pdftex.def)             Requested size: 398.33858pt x 298.75908pt.
+[20
 
-Overfull \hbox (0.1435pt too wide) in paragraph at lines 10--10
-[]\T1/aer/bx/sl/12 METODOLOGIA DE ANÁ-LISE DOS DA-DOS DO EX-PE-RI-MENTO 
- []
 
-Package acronym Info: Label `acro:ADC' newly defined as it shall be overridden
-although it is yet undefined on input line 12.
-Package acronym Info: Label `acro:p.e.' newly defined as it shall be overridden
 
-although it is yet undefined on input line 12.
-<textuais/dadosreais/figuras/peakdist_errado.png, id=79, 1445.4pt x 813.2784pt>
-
+]
+<textuais/dadosreais/figuras/saturado.png, id=90, 421.575pt x 316.18124pt>
+File: textuais/dadosreais/figuras/saturado.png Graphic file (type png)
+<use textuais/dadosreais/figuras/saturado.png>
+Package pdftex.def Info: textuais/dadosreais/figuras/saturado.png  used on inpu
+t line 31.
+(pdftex.def)             Requested size: 398.33858pt x 298.75908pt.
+ [21 <./textuais/dadosreais/figuras/pedestal.png (PNG copy)>]
+<textuais/dadosreais/figuras/peakdist_errado.png, id=94, 418.56375pt x 315.4284
+4pt>
 File: textuais/dadosreais/figuras/peakdist_errado.png Graphic file (type png)
 <use textuais/dadosreais/figuras/peakdist_errado.png>
 Package pdftex.def Info: textuais/dadosreais/figuras/peakdist_errado.png  used 
-on input line 24.
-(pdftex.def)             Requested size: 540.60236pt x 304.17203pt.
-
-Overfull \hbox (31.06883pt too wide) in paragraph at lines 23--25
- []|  [] 
- []
-
-<textuais/dadosreais/figuras/peakdist.png, id=80, 1445.4pt x 813.2784pt>
+on input line 48.
+(pdftex.def)             Requested size: 398.33858pt x 300.18474pt.
+ [22 <./textuais/dadosreais/figuras/saturado.png (PNG copy)>]
+<textuais/dadosreais/figuras/peakdist.png, id=98, 421.575pt x 316.18124pt>
 File: textuais/dadosreais/figuras/peakdist.png Graphic file (type png)
 <use textuais/dadosreais/figuras/peakdist.png>
 Package pdftex.def Info: textuais/dadosreais/figuras/peakdist.png  used on inpu
-t line 31.
-(pdftex.def)             Requested size: 540.60236pt x 304.17203pt.
+t line 56.
+(pdftex.def)             Requested size: 398.33858pt x 298.75908pt.
+ [23 <./textuais/dadosreais/figuras/peakdist_errado.png (PNG copy)> <./textuais
+/dadosreais/figuras/peakdist.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
-Overfull \hbox (31.06883pt too wide) in paragraph at lines 30--32
- []|  [] 
  []
 
-[18
-
-
-
-]) [19 <./textuais/dadosreais/figuras/peakdist_errado.png (PNG copy)> <./textua
-is/dadosreais/figuras/peakdist.png (PNG copy)>]
+<textuais/dadosreais/figuras/hist_evt.png, id=102, 421.575pt x 316.18124pt>
+File: textuais/dadosreais/figuras/hist_evt.png Graphic file (type png)
+<use textuais/dadosreais/figuras/hist_evt.png>
+Package pdftex.def Info: textuais/dadosreais/figuras/hist_evt.png  used on inpu
+t line 72.
+(pdftex.def)             Requested size: 398.33858pt x 298.75908pt.
+) [24 <./textuais/dadosreais/figuras/hist_evt.png (PNG copy)>]
 \openout2 = `./textuais/simulacao/simulacao.aux'.
 
 
 (./textuais/simulacao/simulacao.tex
 Cap\'{\i }tulo 4.
-<textuais/simulacao/figuras/sim_det.png, id=88, 1019.81pt x 776.9025pt>
+<textuais/simulacao/figuras/sim_det.png, id=106, 1019.81pt x 776.9025pt>
 File: textuais/simulacao/figuras/sim_det.png Graphic file (type png)
 <use textuais/simulacao/figuras/sim_det.png>
 Package pdftex.def Info: textuais/simulacao/figuras/sim_det.png  used on input 
 line 8.
 (pdftex.def)             Requested size: 455.24408pt x 346.81706pt.
-) [20
+) [25
 
 
 
-] [21 <./textuais/simulacao/figuras/sim_det.png>]
+] [26 <./textuais/simulacao/figuras/sim_det.png>]
 \openout2 = `./textuais/resultados/resultados.aux'.
 
 
 (./textuais/resultados/resultados.tex
 Cap\'{\i }tulo 5.
-) [22
+) [27
 
 
 
@@ -771,7 +780,7 @@ Cap\'{\i }tulo 5.
 
  (./textuais/conclusao/conclusao.tex
 Cap\'{\i }tulo 6.
-) [23
+) [28
 
 
 
@@ -779,7 +788,7 @@ Cap\'{\i }tulo 6.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [24
+) [29
 
 
 ]
@@ -791,7 +800,7 @@ Apendice A.
 LaTeX Warning: Command \' invalid in math mode on input line 8.
 
 Missing character: There is no í in font cmr8!
-<postextuais/apendice/figuras/cherenkov.png, id=104, 1192.455pt x 900.36375pt>
+<postextuais/apendice/figuras/cherenkov.png, id=123, 1192.455pt x 900.36375pt>
 File: postextuais/apendice/figuras/cherenkov.png Graphic file (type png)
 <use postextuais/apendice/figuras/cherenkov.png>
 Package pdftex.def Info: postextuais/apendice/figuras/cherenkov.png  used on in
@@ -800,7 +809,7 @@ put line 21.
 Package acronym Info: Label `acro:SiPMs' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 26.
-) [25
+) [30
 
 
  <./postextuais/apendice/figuras/cherenkov.png>]
@@ -809,7 +818,7 @@ although it is yet undefined on input line 26.
 
 (./postextuais/apendice/qui-quadrado.tex
 Apendice B.
-) [26
+) [31
 
 
 
@@ -828,10 +837,10 @@ Apendice B.
 (./textuais/conclusao/conclusao.aux) (./postextuais/apendice/Cherenkov.aux)
 (./postextuais/apendice/qui-quadrado.aux)) ) 
 Here is how much of TeX's memory you used:
- 7188 strings out of 492167
- 104083 string characters out of 6131557
- 189650 words of memory out of 5000000
- 11189 multiletter control sequences out of 15000+600000
+ 7217 strings out of 492167
+ 105032 string characters out of 6131557
+ 190677 words of memory out of 5000000
+ 11215 multiletter control sequences out of 15000+600000
  25673 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,10n,46p,933b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -847,10 +856,10 @@ lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmtt12.pfb>
-Output written on dissertacao.pdf (26 pages, 12716160 bytes).
+Output written on dissertacao.pdf (31 pages, 12705807 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 174 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

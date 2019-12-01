@@ -1,7 +1,10 @@
 \babel@toc {brazil}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Detector posicionado ao lado do reator nuclear da usina Angra 2\relax }}{15}% 
-\contentsline {figure}{\numberline {2}{\ignorespaces Vista explodida do detector\relax }}{16}% 
-\contentsline {figure}{\numberline {3}{\ignorespaces Distribuição de picos com problema causado pelo fit\relax }}{19}% 
-\contentsline {figure}{\numberline {4}{\ignorespaces Distribuição de picos após a resolução do problema do \emph {fit}\relax }}{19}% 
-\contentsline {figure}{\numberline {5}{\ignorespaces Detector visto pelo Geant4\relax }}{21}% 
-\contentsline {figure}{\numberline {6}{\ignorespaces Radiação de Cherenkov: uma onda de choque eletromagnética formada pela passagem de partículas acima da velocidade da luz no meio\relax }}{25}% 
+\contentsline {figure}{\numberline {1}{\ignorespaces Detector posicionado ao lado do reator nuclear da usina Angra 2\relax }}{16}% 
+\contentsline {figure}{\numberline {2}{\ignorespaces Vista explodida do detector\relax }}{17}% 
+\contentsline {figure}{\numberline {3}{\ignorespaces Sinal com e sem pedestal\relax }}{21}% 
+\contentsline {figure}{\numberline {4}{\ignorespaces Sinal de uma PMT saturada versus sua estimação de pico\relax }}{22}% 
+\contentsline {figure}{\numberline {5}{\ignorespaces Distribuição de picos com problema causado pela estimação\relax }}{23}% 
+\contentsline {figure}{\numberline {6}{\ignorespaces Distribuição de picos após a resolução do problema de estimação\relax }}{23}% 
+\contentsline {figure}{\numberline {7}{\ignorespaces Distribuição de picos após a resolução do problema do \emph {fit}\relax }}{24}% 
+\contentsline {figure}{\numberline {8}{\ignorespaces Detector visto pelo Geant4\relax }}{26}% 
+\contentsline {figure}{\numberline {9}{\ignorespaces Radiação de Cherenkov: uma onda de choque eletromagnética formada pela passagem de partículas acima da velocidade da luz no meio\relax }}{30}% 
