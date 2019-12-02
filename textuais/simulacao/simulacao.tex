@@ -48,7 +48,7 @@ A lista de física utilizada foi \emph{QGSP\_BIC\_HP}, que contém os modelos:
 	\caption{Modelos de física utilizados}
 \end{table}
 
-Estes modelos foram escolhidas devido às interações reais que acontecem no mundo.
+Estes modelos foram escolhidas devido às interações de interesse na simulação, snedo a interação de raios cósmicos com o detector, que variam entre $100$ MeV e $10$ GeV.
 
 
 \section{Geração das partículas}
@@ -111,9 +111,9 @@ O primeiro problema encontrado foi para múons que passam por dentro de PMTs, qu
 
 
 
-\subsubsection{Transformação de CDF}
+\subsubsection{Transformação de CDFe}
 
-Além da qualidade da água, a saturação da eletrônica de \emph{front-end} e a não linearidade das PMTs, temos que implementar este sistema para a simulação. Foi feita então uma transformação de \ac{CDF} dos eventos simulados para os dados reais, utilizando de parâmetro o histograma de p.e. por PMT.. 
+Além da qualidade da água, a saturação da eletrônica de \emph{front-end} e a não linearidade das PMTs, temos que implementar este sistema para a simulação. Foi feita então uma transformação de \ac{CDFe} dos eventos simulados para os dados reais, utilizando de parâmetro o histograma de p.e. por PMT.. 
 
 
 \begin{figure*}[ht]
@@ -131,10 +131,10 @@ Além da qualidade da água, a saturação da eletrônica de \emph{front-end} e 
 		\caption{Histograma de p.e. por PMT}
 		\label{fig:b2}
 	\end{subfigure}
-	\caption{Comparação dos dados reais por simulados após a transformação de CDF}
+	\caption{Comparação dos dados reais por simulados após a transformação de CDFe}
 \end{figure*}
 
-Como era de se esperar, a transformação de CDF resolveu o problema que o histograma de p.e. por PMT apresentava, porém o problema por eventos apenas se agravou. Precisa-se então de alterar outros parâmetros para a calibração final do simulador.
+Como era de se esperar, a transformação de CDFe resolveu o problema que o histograma de p.e. por PMT apresentava, porém o problema por eventos apenas se agravou. Precisa-se então de alterar outros parâmetros para a calibração final do simulador.
 
 \subsubsection{Qualidade da água}
 
