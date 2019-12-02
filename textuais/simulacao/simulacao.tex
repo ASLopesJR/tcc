@@ -1,11 +1,163 @@
 \chapter{Simulação} \label{cap:simulacao}
 \vspace{-2cm}
 
-Este capítulo será apresentada a plataforma Geant4, interface usada para simulação de eventos ocorridos no experimento $\nu$-Angra com 
+Este capítulo será apresentada a plataforma \ac{Geant4}, interface usada para simulação de eventos ocorridos no experimento $\nu$-Angra, e as medidas e métodos de simulação realizados neste trabalho.
+
+\section{Geant4}
+
+Geant4 é um software de código livre, extensível,  utilizado para simular de forma acurada a passagem de partículas por matéria, todo o escopo de simulação está incluso nas ferramentas do simulador, como construção do detector, materiais, partículas de interesse.
+
+Já incluso no cerne do simulador estão inclusos vários modelos físicos para lidar com as interações das partículas por todo uma extensão de níveis energéticos. Construído com uma linguagem orientada à objetos (C++), ele utiliza o método de Monte-Carlo para cálculos, utilizando de métodos estocásticos para resolver as interações determinísticas, do ponto de vista do simulador.
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=16cm]{textuais/simulacao/figuras/sim_det.png}
-    \caption{Detector visto pelo Geant4}
-    \label{fig:simdetector}
+	\centering
+	\includegraphics[width=3cm]{textuais/simulacao/figuras/g4.png}
+	\caption{Logo do Geant4}
+	\label{fig:logo}
 \end{figure}
+
+Devido à sua extensibilidade e confiabilidade, o Geant4 foi escolhido como plataforma de simulação para o experimento.
+
+Além de ser utilizado como simulador na física de altas energias, o Geant 4 também possui campo de aplicação em áreas como medicina, para simular tratamentos com radiação; a física nuclear; e as aplicações espaciais, para estudar as interações entre os raios cósmicos e os equipamentos utilizados por astronautas.
+
+\subsection{Construção do detector e parâmetros do experimento}
+
+Valendo-se da plataforma \textit{Geant4}, a Colaboração Neutrinos Angra criou um modelo do detector completo, porém este estava na configuração antiga do mesmo, conhecida como "copo de caipirinha", após atualizar o modelo, o obtivemos da forma atual, que pode ser visto na Figura \ref{fig:detector}. Este foi utilizado como modelo do detector. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=16cm]{textuais/simulacao/figuras/sim_det.png}
+	\caption{Detector visto pelo Geant4}
+	\label{fig:simdetector}
+\end{figure}
+
+A lista de física utilizada foi \emph{QGSP\_BIC\_HP}, que contém os modelos:
+
+
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|ll}
+		\cline{1-3}
+		Sigla & Nome do modelo               & Nível de energia        &  &  \\ \cline{1-3}
+		QGS   & Quark Gluon String model     & \textgreater 12 GeV     &  &  \\ \cline{1-3}
+		FTF   & FRITIOF String model         & 9.5 - 25 GeV            &  &  \\ \cline{1-3}
+		BIC   & Binary Cascade model         & 200 MeV - 9.9 GeV       &  &  \\ \cline{1-3}
+		HP    & High Precision neutron model & \textless{}$\sim$20 MeV &  &  \\ \cline{1-3}
+	\end{tabular}
+	\caption{Modelos de física utilizados}
+\end{table}
+
+Estes modelos foram escolhidas devido às interações reais que acontecem no mundo.
+
+
+\section{Geração das partículas}
+
+As partículas de simulação foram geradas pela plataforma ROOT, da colaboração do \ac{CERN}, para realizar os cálculos. Para facilitar a simulação dos eventos, ao invés de implementar as pás no simulador, os raios cósmicos são gerados já passando por elas, garantindo o \emph{trigger} do sistema para qualquer evento da lista. 
+
+ Na geração das partículas foi utilizado um modelo aleatório de sorteio em histogramas com as distribuições das direções nos eixos $x$,$y$ e $z$ e a posição inicial no plano 3D, (\url{https://github.com/ASLopesJR/NeutrinosAngra/blob/teste-angra/AngraGenerators/muons/muons_pad.cpp}) depois foi calculado em que posição estará a partícula na altura dos dois pads e, se ela estiver dentro da área de ambos, salva a partícula. Os eventos salvos podem ser vistos na Figura \ref{fig:geracao}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=16cm]{textuais/simulacao/figuras/geracao.png}
+	\caption{Raios cósmicos gerados}
+	\label{fig:geracao}
+\end{figure}
+
+
+\section{Simulação inicial}
+
+Assim, com o Geant4 configurado e as partículas geradas podemos executar a simulação e fazer a análise dos resultados. Foram feitas $20000$ simulações com o banco de dados, comparando os resultados com os dados reais, tivemos as Figuras \ref{fig:a} e \ref{fig:b}.
+
+\begin{figure*}[ht]
+	\centering
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+	\includegraphics[width=8cm]{textuais/simulacao/figuras/hist_evt1.png}
+		\caption{Histograma de p.e. por eventos}
+		\label{fig:a}
+	\end{subfigure}%
+	~ 
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+	\includegraphics[width=8cm]{textuais/simulacao/figuras/hist_pmt1.png}
+		\caption{Histograma de p.e. por PMT}
+				\label{fig:b}
+	\end{subfigure}
+	\caption{Comparação dos dados reais por simulados}
+\end{figure*}
+
+
+\section{Correção de bugs}
+
+Como pode ser percebido, há um erro crasso de calibração do sistema simulado, de forma geral os eventos apresentam muito mais energia  do que no sistema real, então, muito mais fotoelétrons estão sendo capturados pelas PMTs. Algum método deve ser encontrado para calibrar a simulação.
+
+\subsection{Correção das PMTs}
+
+O primeiro problema encontrado foi para múons que passam por dentro de PMTs, que geram fótons dentro da mesma, porém no volume interior da PMT real há vácuo, então não deveria ocorrer a radiação de Cherenkov, dada a energia gerada dentro da PMT pode-se inferir que para a simulação havia água dentro delas. Então foi-se adicionado um volume com vácuo dentro da PMT para corrigir este problema
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		Antes da correção  & 929 eventos \\ \hline
+		Depois da correção & 22  eventos \\ \hline
+	\end{tabular}
+
+\caption{Eventos antes e depois de corrigir o bug do vácuo}
+\end{table}
+
+\subsection{Calibração da simulação}
+
+
+
+\subsubsection{Transformação de CDF}
+
+Além da qualidade da água, a saturação da eletrônica de \emph{front-end} e a não linearidade das PMTs, temos que implementar este sistema para a simulação. Foi feita então uma transformação de \ac{CDF} dos eventos simulados para os dados reais, utilizando de parâmetro o histograma de p.e. por PMT.. 
+
+
+\begin{figure*}[ht]
+	\centering
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=8cm]{textuais/simulacao/figuras/hist_evt2.png}
+		\caption{Histograma de p.e. por eventos}
+		\label{fig:a2}
+	\end{subfigure}%
+	~ 
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=8cm]{textuais/simulacao/figuras/hist_pmt2.png}
+		\caption{Histograma de p.e. por PMT}
+		\label{fig:b2}
+	\end{subfigure}
+	\caption{Comparação dos dados reais por simulados após a transformação de CDF}
+\end{figure*}
+
+Como era de se esperar, a transformação de CDF resolveu o problema que o histograma de p.e. por PMT apresentava, porém o problema por eventos apenas se agravou. Precisa-se então de alterar outros parâmetros para a calibração final do simulador.
+
+\subsubsection{Qualidade da água}
+
+Como discutido no Capítulo \ref{cap:experimento} na Sessão \ref{sec:detector}, na água dopada com sal de gadolínio há uma diminuição no caminho médio livre e, na simulação, não há este sistema implementado sendo utilizado o caminho médio livre de uma água completamente pura. Então deve-se alterar a qualidade da água para que a distribuição de energia esteja correta.
+
+Para tal, utilizaremos um modelo iterativo diminuindo o caminho médio livre do fóton na água até que os dados simulados representem os dados reais. As Figuras a seguir mostram alguns passos deste processo iterativo.
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=10cm]{textuais/simulacao/figuras/hist_evt3.png}
+\caption{Qualidade da água 86\% pior que a original}
+\label{fig:a3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{textuais/simulacao/figuras/hist_evt4.png}
+	\caption{Qualidade da água 70\% pior que a original}
+	\label{fig:a4}
+\end{figure}
+
+Assim, utilizaremos o valor para qualidade da água $70\%$ menor que o valor da água pura..
+
+

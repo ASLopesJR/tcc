@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.28)  30 NOV 2019 21:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.28)  2 DEC 2019 03:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -374,25 +374,76 @@ LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
 (/usr/share/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count128
+\lst@gtempboxa=\box57
+\lst@token=\toks27
+\lst@length=\count129
+\lst@currlwidth=\dimen141
+\lst@column=\count130
+\lst@pos=\count131
+\lst@lostspace=\dimen142
+\lst@width=\dimen143
+\lst@newlines=\count132
+\lst@lineno=\count133
+\lst@maxwidth=\dimen144
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count134
+\lst@skipnumbers=\count135
+\lst@framebox=\box58
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+)
 (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip55
-\multirow@cntb=\count128
+\multirow@cntb=\count136
 \multirow@dima=\skip56
-\bigstrutjot=\dimen141
+\bigstrutjot=\dimen145
 ) (./abntcite.sty
 Package: abntcite 2002/11/20
 \minimumbiblabelwidth=\skip57
 \ABCIauxlen=\skip58
-\c@ABCIaux=\count129
-\c@ABCImax=\count130
+\c@ABCIaux=\count137
+\c@ABCImax=\count138
 
 (/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip59
 LaTeX Info: Redefining \cite on input line 429.
-\ABCItoken=\toks27
+\ABCItoken=\toks28
 )
 
 LaTeX Warning: Unused global option(s):
@@ -409,35 +460,36 @@ LaTeX Warning: Unused global option(s):
 (./postextuais/apendice/qui-quadrado.aux))
 \openout1 = `dissertacao.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count131
-\scratchdimen=\dimen142
-\scratchbox=\box57
-\nofMPsegments=\count132
-\nofMParguments=\count133
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count134
-\MPscratchDim=\dimen143
-\MPnumerator=\count135
-\makeMPintoPDFobject=\count136
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count139
+\scratchdimen=\dimen146
+\scratchbox=\box59
+\nofMPsegments=\count140
+\nofMParguments=\count141
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count142
+\MPscratchDim=\dimen147
+\MPnumerator=\count143
+\makeMPintoPDFobject=\count144
+\everyMPtoPDFconversion=\toks30
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -519,6 +571,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\c@lstlisting=\count145
 \openout2 = `./pretextuais/capa.aux'.
 
 (./pretextuais/capa.tex
@@ -624,52 +677,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
 
 
-]) (./dissertacao.lof)
+]) (./dissertacao.lof
+Overfull \hbox (0.15802pt too wide) in paragraph at lines 13--13
+ [] \T1/aer/m/n/12 Fi-gura []Comparação dos da-dos re-ais por si-mu-la-dos após
+ a trans-for-ma-ção de CDF  []  
+ []
+
+[9
+
+
+])
 \tf@lof=\write4
 \openout4 = `dissertacao.lof'.
 
- [9
-
-
-] (./dissertacao.lot)
+ [10] (./dissertacao.lot)
 \tf@lot=\write5
 \openout5 = `dissertacao.lot'.
 
- [10
+ [11
 
 ]
 \openout2 = `./pretextuais/acronimos.aux'.
 
+ (./pretextuais/acronimos.tex) [12
 
-(./pretextuais/acronimos.tex) [11
 
-
-] (./dissertacao.toc [12
+]
+(./dissertacao.toc [13
 
 
 ])
 \tf@toc=\write6
 \openout6 = `dissertacao.toc'.
 
- [13]
+ [14]
 \openout2 = `./textuais/introducao/introducao.aux'.
 
-
-(./textuais/introducao/introducao.tex
+ (./textuais/introducao/introducao.tex
 Cap\'{\i }tulo 1.
 Package acronym Info: Label `acro:PMTs' newly defined as it shall be overridden
 
-although it is yet undefined on input line 16.
-[14
+although it is yet undefined on input line 18.
+[15
 
 
 
-]) [15]
+]) [16]
 \openout2 = `./textuais/experimento/experimento.aux'.
 
  (./textuais/experimento/experimento.tex
 Cap\'{\i }tulo 2.
-<textuais/experimento/figuras/angra.png, id=65, 710.655pt x 688.974pt>
+<textuais/experimento/figuras/angra.png, id=68, 710.655pt x 688.974pt>
 File: textuais/experimento/figuras/angra.png Graphic file (type png)
 <use textuais/experimento/figuras/angra.png>
 Package pdftex.def Info: textuais/experimento/figuras/angra.png  used on input 
@@ -677,12 +735,12 @@ line 12.
 (pdftex.def)             Requested size: 284.52756pt x 275.84753pt.
 Package acronym Info: Label `acro:PWR' newly defined as it shall be overridden
 although it is yet undefined on input line 19.
-[16
+[17
 
 
 
  <./textuais/experimento/figuras/angra.png>]
-<textuais/experimento/figuras/detector.png, id=69, 1051.67906pt x 1095.3422pt>
+<textuais/experimento/figuras/detector.png, id=72, 1051.67906pt x 1095.3422pt>
 File: textuais/experimento/figuras/detector.png Graphic file (type png)
 <use textuais/experimento/figuras/detector.png>
 Package pdftex.def Info: textuais/experimento/figuras/detector.png  used on inp
@@ -693,85 +751,165 @@ LaTeX Font Info:    Trying to load font information for T1+aett on input line 3
 
 (/usr/share/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-) [17 <./textuais/experimento/figuras/detector.png>]
+) [18 <./textuais/experimento/figuras/detector.png>]
 Package acronym Info: Label `acro:p.e.' newly defined as it shall be overridden
 
-although it is yet undefined on input line 53.
+although it is yet undefined on input line 50.
 Package acronym Info: Label `acro:NDAQ' newly defined as it shall be overridden
 
-although it is yet undefined on input line 60.
- [18]) [19]
+although it is yet undefined on input line 57.
+ [19]) [20]
 \openout2 = `./textuais/dadosreais/dadosreais.aux'.
 
  (./textuais/dadosreais/dadosreais.tex
 Cap\'{\i }tulo 3.
-<textuais/dadosreais/figuras/pedestal.png, id=86, 421.575pt x 316.18124pt>
+<textuais/dadosreais/figuras/pedestal.png, id=89, 421.575pt x 316.18124pt>
 File: textuais/dadosreais/figuras/pedestal.png Graphic file (type png)
 <use textuais/dadosreais/figuras/pedestal.png>
 Package pdftex.def Info: textuais/dadosreais/figuras/pedestal.png  used on inpu
-t line 21.
+t line 19.
 (pdftex.def)             Requested size: 398.33858pt x 298.75908pt.
-[20
+[21
 
 
 
 ]
-<textuais/dadosreais/figuras/saturado.png, id=90, 421.575pt x 316.18124pt>
+<textuais/dadosreais/figuras/saturado.png, id=93, 421.575pt x 316.18124pt>
 File: textuais/dadosreais/figuras/saturado.png Graphic file (type png)
 <use textuais/dadosreais/figuras/saturado.png>
 Package pdftex.def Info: textuais/dadosreais/figuras/saturado.png  used on inpu
-t line 31.
+t line 29.
 (pdftex.def)             Requested size: 398.33858pt x 298.75908pt.
- [21 <./textuais/dadosreais/figuras/pedestal.png (PNG copy)>]
-<textuais/dadosreais/figuras/peakdist_errado.png, id=94, 418.56375pt x 315.4284
+ [22 <./textuais/dadosreais/figuras/pedestal.png (PNG copy)>]
+<textuais/dadosreais/figuras/peakdist_errado.png, id=97, 418.56375pt x 315.4284
 4pt>
 File: textuais/dadosreais/figuras/peakdist_errado.png Graphic file (type png)
 <use textuais/dadosreais/figuras/peakdist_errado.png>
 Package pdftex.def Info: textuais/dadosreais/figuras/peakdist_errado.png  used 
-on input line 48.
+on input line 46.
 (pdftex.def)             Requested size: 398.33858pt x 300.18474pt.
- [22 <./textuais/dadosreais/figuras/saturado.png (PNG copy)>]
-<textuais/dadosreais/figuras/peakdist.png, id=98, 421.575pt x 316.18124pt>
+ [23 <./textuais/dadosreais/figuras/saturado.png (PNG copy)>]
+<textuais/dadosreais/figuras/peakdist.png, id=101, 421.575pt x 316.18124pt>
 File: textuais/dadosreais/figuras/peakdist.png Graphic file (type png)
 <use textuais/dadosreais/figuras/peakdist.png>
 Package pdftex.def Info: textuais/dadosreais/figuras/peakdist.png  used on inpu
-t line 56.
+t line 54.
 (pdftex.def)             Requested size: 398.33858pt x 298.75908pt.
- [23 <./textuais/dadosreais/figuras/peakdist_errado.png (PNG copy)> <./textuais
+ [24 <./textuais/dadosreais/figuras/peakdist_errado.png (PNG copy)> <./textuais
 /dadosreais/figuras/peakdist.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
-<textuais/dadosreais/figuras/hist_evt.png, id=102, 421.575pt x 316.18124pt>
+<textuais/dadosreais/figuras/hist_evt.png, id=105, 421.575pt x 316.18124pt>
 File: textuais/dadosreais/figuras/hist_evt.png Graphic file (type png)
 <use textuais/dadosreais/figuras/hist_evt.png>
 Package pdftex.def Info: textuais/dadosreais/figuras/hist_evt.png  used on inpu
-t line 72.
+t line 70.
 (pdftex.def)             Requested size: 398.33858pt x 298.75908pt.
-) [24 <./textuais/dadosreais/figuras/hist_evt.png (PNG copy)>]
+) [25 <./textuais/dadosreais/figuras/hist_evt.png (PNG copy)>]
 \openout2 = `./textuais/simulacao/simulacao.aux'.
 
 
 (./textuais/simulacao/simulacao.tex
 Cap\'{\i }tulo 4.
-<textuais/simulacao/figuras/sim_det.png, id=106, 1019.81pt x 776.9025pt>
+Package acronym Info: Label `acro:Geant4' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 4.
+<textuais/simulacao/figuras/g4.png, id=110, 200.75pt x 200.75pt>
+File: textuais/simulacao/figuras/g4.png Graphic file (type png)
+<use textuais/simulacao/figuras/g4.png>
+Package pdftex.def Info: textuais/simulacao/figuras/g4.png  used on input line 
+14.
+(pdftex.def)             Requested size: 85.35826pt x 85.35896pt.
+[26
+
+
+
+ <./textuais/simulacao/figuras/g4.png>]
+<textuais/simulacao/figuras/sim_det.png, id=115, 1019.81pt x 776.9025pt>
 File: textuais/simulacao/figuras/sim_det.png Graphic file (type png)
 <use textuais/simulacao/figuras/sim_det.png>
 Package pdftex.def Info: textuais/simulacao/figuras/sim_det.png  used on input 
-line 8.
+line 29.
 (pdftex.def)             Requested size: 455.24408pt x 346.81706pt.
-) [25
+ [27 <./textuais/simulacao/figuras/sim_det.png>]
+Package acronym Info: Label `acro:CERN' newly defined as it shall be overridden
 
+although it is yet undefined on input line 56.
 
+Overfull \hbox (20.18831pt too wide) in paragraph at lines 58--59
+\T1/aett/m/n/12 / / github . com / ASLopesJR / NeutrinosAngra / blob / teste-[]
+angra / AngraGenerators / muons /
+ []
 
-] [26 <./textuais/simulacao/figuras/sim_det.png>]
+<textuais/simulacao/figuras/geracao.png, id=119, 421.575pt x 316.18124pt>
+File: textuais/simulacao/figuras/geracao.png Graphic file (type png)
+<use textuais/simulacao/figuras/geracao.png>
+Package pdftex.def Info: textuais/simulacao/figuras/geracao.png  used on input 
+line 62.
+(pdftex.def)             Requested size: 455.24408pt x 341.4417pt.
+[28 <./textuais/simulacao/figuras/geracao.png (PNG copy)>]
+<textuais/simulacao/figuras/hist_evt1.png, id=123, 421.575pt x 316.18124pt>
+File: textuais/simulacao/figuras/hist_evt1.png Graphic file (type png)
+<use textuais/simulacao/figuras/hist_evt1.png>
+Package pdftex.def Info: textuais/simulacao/figuras/hist_evt1.png  used on inpu
+t line 76.
+(pdftex.def)             Requested size: 227.62204pt x 170.72084pt.
+<textuais/simulacao/figuras/hist_pmt1.png, id=124, 421.575pt x 316.18124pt>
+File: textuais/simulacao/figuras/hist_pmt1.png Graphic file (type png)
+<use textuais/simulacao/figuras/hist_pmt1.png>
+Package pdftex.def Info: textuais/simulacao/figuras/hist_pmt1.png  used on inpu
+t line 83.
+(pdftex.def)             Requested size: 227.62204pt x 170.72084pt.
+
+Overfull \hbox (5.23218pt too wide) in paragraph at lines 74--87
+ []$[]$  $[]$ 
+ []
+
+Package acronym Info: Label `acro:CDF' newly defined as it shall be overridden
+although it is yet undefined on input line 116.
+[29 <./textuais/simulacao/figuras/hist_evt1.png (PNG copy)> <./textuais/simulac
+ao/figuras/hist_pmt1.png (PNG copy)>]
+<textuais/simulacao/figuras/hist_evt2.png, id=128, 421.575pt x 316.18124pt>
+File: textuais/simulacao/figuras/hist_evt2.png Graphic file (type png)
+<use textuais/simulacao/figuras/hist_evt2.png>
+Package pdftex.def Info: textuais/simulacao/figuras/hist_evt2.png  used on inpu
+t line 123.
+(pdftex.def)             Requested size: 227.62204pt x 170.72084pt.
+<textuais/simulacao/figuras/hist_pmt2.png, id=129, 421.575pt x 316.18124pt>
+File: textuais/simulacao/figuras/hist_pmt2.png Graphic file (type png)
+<use textuais/simulacao/figuras/hist_pmt2.png>
+Package pdftex.def Info: textuais/simulacao/figuras/hist_pmt2.png  used on inpu
+t line 130.
+(pdftex.def)             Requested size: 227.62204pt x 170.72084pt.
+
+Overfull \hbox (5.23218pt too wide) in paragraph at lines 121--134
+ []$[]$  $[]$ 
+ []
+
+<textuais/simulacao/figuras/hist_evt3.png, id=130, 421.575pt x 316.18124pt>
+File: textuais/simulacao/figuras/hist_evt3.png Graphic file (type png)
+<use textuais/simulacao/figuras/hist_evt3.png>
+Package pdftex.def Info: textuais/simulacao/figuras/hist_evt3.png  used on inpu
+t line 149.
+(pdftex.def)             Requested size: 284.52756pt x 213.39865pt.
+[30 <./textuais/simulacao/figuras/hist_evt2.png (PNG copy)> <./textuais/simulac
+ao/figuras/hist_pmt2.png (PNG copy)>]
+<textuais/simulacao/figuras/hist_evt4.png, id=134, 421.575pt x 316.18124pt>
+File: textuais/simulacao/figuras/hist_evt4.png Graphic file (type png)
+<use textuais/simulacao/figuras/hist_evt4.png>
+Package pdftex.def Info: textuais/simulacao/figuras/hist_evt4.png  used on inpu
+t line 156.
+(pdftex.def)             Requested size: 284.52756pt x 213.39865pt.
+) [31 <./textuais/simulacao/figuras/hist_evt3.png (PNG copy)> <./textuais/simul
+acao/figuras/hist_evt4.png (PNG copy)>]
 \openout2 = `./textuais/resultados/resultados.aux'.
 
 
 (./textuais/resultados/resultados.tex
 Cap\'{\i }tulo 5.
-) [27
+) [32
 
 
 
@@ -780,7 +918,7 @@ Cap\'{\i }tulo 5.
 
  (./textuais/conclusao/conclusao.tex
 Cap\'{\i }tulo 6.
-) [28
+) [33
 
 
 
@@ -788,7 +926,7 @@ Cap\'{\i }tulo 6.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [29
+) [34
 
 
 ]
@@ -800,7 +938,7 @@ Apendice A.
 LaTeX Warning: Command \' invalid in math mode on input line 8.
 
 Missing character: There is no í in font cmr8!
-<postextuais/apendice/figuras/cherenkov.png, id=123, 1192.455pt x 900.36375pt>
+<postextuais/apendice/figuras/cherenkov.png, id=148, 1192.455pt x 900.36375pt>
 File: postextuais/apendice/figuras/cherenkov.png Graphic file (type png)
 <use postextuais/apendice/figuras/cherenkov.png>
 Package pdftex.def Info: postextuais/apendice/figuras/cherenkov.png  used on in
@@ -809,7 +947,7 @@ put line 21.
 Package acronym Info: Label `acro:SiPMs' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 26.
-) [30
+) [35
 
 
  <./postextuais/apendice/figuras/cherenkov.png>]
@@ -818,7 +956,7 @@ although it is yet undefined on input line 26.
 
 (./postextuais/apendice/qui-quadrado.tex
 Apendice B.
-) [31
+) [36
 
 
 
@@ -837,13 +975,13 @@ Apendice B.
 (./textuais/conclusao/conclusao.aux) (./postextuais/apendice/Cherenkov.aux)
 (./postextuais/apendice/qui-quadrado.aux)) ) 
 Here is how much of TeX's memory you used:
- 7217 strings out of 492167
- 105032 string characters out of 6131557
- 190677 words of memory out of 5000000
- 11215 multiletter control sequences out of 15000+600000
+ 9111 strings out of 492167
+ 132138 string characters out of 6131557
+ 398700 words of memory out of 5000000
+ 13075 multiletter control sequences out of 15000+600000
  25673 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,10n,46p,933b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,10n,60p,933b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbxsl10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
@@ -856,10 +994,10 @@ lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmtt12.pfb>
-Output written on dissertacao.pdf (31 pages, 12705807 bytes).
+Output written on dissertacao.pdf (36 pages, 12843703 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
+ 198 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
