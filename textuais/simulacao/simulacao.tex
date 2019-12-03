@@ -88,7 +88,7 @@ Assim, com o Geant4 configurado e as partículas geradas podemos executar a simu
 \end{figure*}
 
 
-\section{Correção de bugs}
+\section{Correção de bugs} \label{sec:bugs}
 
 Como pode ser percebido, há um erro crasso de calibração do sistema simulado, de forma geral os eventos apresentam muito mais energia  do que no sistema real, então, muito mais fotoelétrons estão sendo capturados pelas PMTs. Algum método deve ser encontrado para calibrar a simulação.
 
@@ -107,11 +107,8 @@ O primeiro problema encontrado foi para múons que passam por dentro de PMTs, qu
 \caption{Eventos antes e depois de corrigir o bug do vácuo}
 \end{table}
 
-\subsection{Calibração da simulação}
 
-
-
-\subsubsection{Transformação de CDFe}
+\subsection{Transformação de CDFe}
 
 Além da qualidade da água, a saturação da eletrônica de \emph{front-end} e a não linearidade das PMTs, temos que implementar este sistema para a simulação. Foi feita então uma transformação de \ac{CDFe} dos eventos simulados para os dados reais, utilizando de parâmetro o histograma de p.e. por PMT.. 
 
@@ -134,30 +131,39 @@ Além da qualidade da água, a saturação da eletrônica de \emph{front-end} e 
 	\caption{Comparação dos dados reais por simulados após a transformação de CDFe}
 \end{figure*}
 
-Como era de se esperar, a transformação de CDFe resolveu o problema que o histograma de p.e. por PMT apresentava, porém o problema por eventos apenas se agravou. Precisa-se então de alterar outros parâmetros para a calibração final do simulador.
-
-\subsubsection{Qualidade da água}
-
-Como discutido no Capítulo \ref{cap:experimento} na Sessão \ref{sec:detector}, na água dopada com sal de gadolínio há uma diminuição no caminho médio livre e, na simulação, não há este sistema implementado sendo utilizado o caminho médio livre de uma água completamente pura. Então deve-se alterar a qualidade da água para que a distribuição de energia esteja correta.
-
-Para tal, utilizaremos um modelo iterativo diminuindo o caminho médio livre do fóton na água até que os dados simulados representem os dados reais. As Figuras a seguir mostram alguns passos deste processo iterativo.
-
-
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=10cm]{textuais/simulacao/figuras/hist_evt3.png}
-\caption{Qualidade da água 86\% pior que a original}
-\label{fig:a3}
-\end{figure}
+Como era de se esperar, a transformação de CDFe resolveu o problema que o histograma de p.e. por PMT apresentava, porém o problema por eventos apenas se agravou. Os eventos de baixa energia foram substituídos por eventos com energias maiores, então após o método da CDFe, serão transformados apenas os valores de PMTs que estão além do ponto de saturação, utilziado neste trabalho $200$ p.e. como parâmetro, resultando na Figura \ref{fig:cdfe}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=10cm]{textuais/simulacao/figuras/hist_evt4.png}
-	\caption{Qualidade da água 70\% pior que a original}
-	\label{fig:a4}
+	\includegraphics[width=8.8cm]{textuais/simulacao/figuras/hist_evt6.png}
+	\caption{Histograma de p.e. por eventos após a CDFe a partir do ponto de saturação}
+	\label{fig:cdfe}
 \end{figure}
 
-Assim, utilizaremos o valor para qualidade da água $70\%$ menor que o valor da água pura..
+\subsection{Qualidade da água}
+
+Como discutido no Capítulo \ref{cap:experimento} na Sessão \ref{sec:detector}, na água dopada com sal de gadolínio há uma diminuição no caminho médio livre e, na simulação, não há este sistema implementado sendo utilizado o caminho médio livre de uma água completamente pura. Então deve-se alterar a qualidade da água para que a distribuição de energia esteja correta.
+
+Para tal, utilizaremos um modelo iterativo diminuindo o caminho médio livre do fóton na água até que os dados simulados representem os dados reais. As Figuras \ref{fig:a3} e \ref{fig:a4} a seguir mostram alguns passos deste processo iterativo.
+
+
+
+\begin{figure*}[ht]
+	\centering
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=8cm]{textuais/simulacao/figuras/hist_evt3.png}
+		\caption{Qualidade da água 86\% pior que a original}
+		\label{fig:a3}
+	\end{subfigure}%
+	~ 
+	\begin{subfigure}{0.5\textwidth}
+		\centering		
+		\includegraphics[width=8cm]{textuais/simulacao/figuras/hist_evt5.png}
+		\caption{Qualidade da água 75\% pior que a original}
+		\label{fig:a4}
+	\end{subfigure}
+	\caption{Comparação dos dados reais por simulados após a transformação de CDFe modificando a qualidade da água}
+\end{figure*}
 
 

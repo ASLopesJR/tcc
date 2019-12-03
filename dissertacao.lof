@@ -1,16 +1,19 @@
 \babel@toc {brazil}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Detector posicionado ao lado do reator nuclear da usina Angra 2\relax }}{17}% 
-\contentsline {figure}{\numberline {2}{\ignorespaces Vista explodida do detector\relax }}{18}% 
-\contentsline {figure}{\numberline {3}{\ignorespaces Sinal com e sem pedestal\relax }}{22}% 
-\contentsline {figure}{\numberline {4}{\ignorespaces Sinal de uma PMT saturada versus sua estimação de pico\relax }}{23}% 
-\contentsline {figure}{\numberline {5}{\ignorespaces Distribuição de picos com problema causado pela estimação\relax }}{24}% 
-\contentsline {figure}{\numberline {6}{\ignorespaces Distribuição de picos após a resolução do problema de estimação\relax }}{24}% 
-\contentsline {figure}{\numberline {7}{\ignorespaces Distribuição de picos após a resolução do problema do \emph {fit}\relax }}{25}% 
-\contentsline {figure}{\numberline {8}{\ignorespaces Logo do Geant4\relax }}{26}% 
-\contentsline {figure}{\numberline {9}{\ignorespaces Detector visto pelo Geant4\relax }}{27}% 
-\contentsline {figure}{\numberline {10}{\ignorespaces Raios cósmicos gerados\relax }}{28}% 
-\contentsline {figure}{\numberline {11}{\ignorespaces Comparação dos dados reais por simulados\relax }}{29}% 
-\contentsline {figure}{\numberline {12}{\ignorespaces Comparação dos dados reais por simulados após a transformação de CDF\relax }}{30}% 
-\contentsline {figure}{\numberline {13}{\ignorespaces Qualidade da água 86\% pior que a original\relax }}{31}% 
-\contentsline {figure}{\numberline {14}{\ignorespaces Qualidade da água 70\% pior que a original\relax }}{31}% 
-\contentsline {figure}{\numberline {15}{\ignorespaces Radiação de Cherenkov: uma onda de choque eletromagnética formada pela passagem de partículas acima da velocidade da luz no meio\relax }}{35}% 
+\contentsline {figure}{\numberline {1}{\ignorespaces Detector posicionado ao lado do reator nuclear da usina Angra 2\relax }}{18}% 
+\contentsline {figure}{\numberline {2}{\ignorespaces Vista explodida do detector\relax }}{19}% 
+\contentsline {figure}{\numberline {3}{\ignorespaces Sinal com e sem pedestal\relax }}{23}% 
+\contentsline {figure}{\numberline {4}{\ignorespaces Sinal de uma PMT saturada versus sua estimação de pico\relax }}{24}% 
+\contentsline {figure}{\numberline {5}{\ignorespaces Distribuição de picos com problema causado pela estimação\relax }}{25}% 
+\contentsline {figure}{\numberline {6}{\ignorespaces Distribuição de picos após a resolução do problema de estimação\relax }}{25}% 
+\contentsline {figure}{\numberline {7}{\ignorespaces Distribuição de picos após a resolução do problema do \emph {fit}\relax }}{26}% 
+\contentsline {figure}{\numberline {8}{\ignorespaces Logo do Geant4\relax }}{27}% 
+\contentsline {figure}{\numberline {9}{\ignorespaces Detector visto pelo Geant4\relax }}{28}% 
+\contentsline {figure}{\numberline {10}{\ignorespaces Raios cósmicos gerados\relax }}{29}% 
+\contentsline {figure}{\numberline {11}{\ignorespaces Comparação dos dados reais por simulados\relax }}{30}% 
+\contentsline {figure}{\numberline {12}{\ignorespaces Comparação dos dados reais por simulados após a transformação de CDFe\relax }}{31}% 
+\contentsline {figure}{\numberline {13}{\ignorespaces Histograma de p.e. por eventos após a CDFe a partir do ponto de saturação\relax }}{31}% 
+\contentsline {figure}{\numberline {14}{\ignorespaces Comparação dos dados reais por simulados após a transformação de CDFe modificando a qualidade da água\relax }}{32}% 
+\contentsline {figure}{\numberline {15}{\ignorespaces Histograma da energia por eventos com a qualidade da água 70\% pior que a original\relax }}{33}% 
+\contentsline {figure}{\numberline {16}{\ignorespaces Histograma da energia por PMT com a qualidade da água 70\% pior que a original\relax }}{33}% 
+\contentsline {figure}{\numberline {17}{\ignorespaces Transformação de CDFe dos valores simulados para valores reais \relax }}{34}% 
+\contentsline {figure}{\numberline {18}{\ignorespaces Radiação de Cherenkov: uma onda de choque eletromagnética formada pela passagem de partículas acima da velocidade da luz no meio\relax }}{37}% 

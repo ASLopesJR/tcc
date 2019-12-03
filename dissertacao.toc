@@ -1,32 +1,31 @@
 \babel@toc {brazil}{}
 \contentsline {chapter}{\numberline {1}INTRODUÇÃO}{15}% 
-\contentsline {section}{\numberline {1.1}Motivação}{15}% 
+\contentsline {section}{\numberline {1.1}Motivação}{16}% 
 \contentsline {section}{\numberline {1.2}Desenvolvimento}{16}% 
 \contentsline {section}{\numberline {1.3}Mapa dos capítulos}{16}% 
-\contentsline {chapter}{\numberline {2}Experimento $\nu $-Angra}{17}% 
-\contentsline {section}{\numberline {2.1}Reator nuclear da usina Angra 2}{18}% 
-\contentsline {section}{\numberline {2.2}O detector $\nu $-Angra}{18}% 
-\contentsline {subsection}{\numberline {2.2.1}Sistemas de \emph {VETO}}{19}% 
-\contentsline {subsection}{\numberline {2.2.2}Detector alvo}{19}% 
-\contentsline {subsection}{\numberline {2.2.3}Tubos Fotomultiplicadores}{19}% 
-\contentsline {section}{\numberline {2.3}Eletrônicas de \emph {front-end} e aquisição}{20}% 
-\contentsline {chapter}{\numberline {3}Dados Reais}{21}% 
-\contentsline {section}{\numberline {3.1}Metodologia de análise dos dados do experimento}{21}% 
-\contentsline {section}{\numberline {3.2}Debug dos dados reais}{23}% 
-\contentsline {section}{\numberline {3.3}Dados da aquisição}{25}% 
-\contentsline {chapter}{\numberline {4}Simulação}{26}% 
-\contentsline {section}{\numberline {4.1}Geant4}{26}% 
-\contentsline {subsection}{\numberline {4.1.1}Construção do detector e parâmetros do experimento}{27}% 
-\contentsline {section}{\numberline {4.2}Geração das partículas}{28}% 
-\contentsline {section}{\numberline {4.3}Simulação inicial}{29}% 
-\contentsline {section}{\numberline {4.4}Correção de bugs}{29}% 
-\contentsline {subsection}{\numberline {4.4.1}Correção das PMTs}{29}% 
-\contentsline {subsection}{\numberline {4.4.2}Calibração da simulação}{30}% 
-\contentsline {subsubsection}{\numberline {4.4.2.1}Transformação de CDF}{30}% 
-\contentsline {subsubsection}{\numberline {4.4.2.2}Qualidade da água}{30}% 
-\contentsline {chapter}{\numberline {5}Resultados}{32}% 
-\contentsline {chapter}{\numberline {6}Conclusão}{33}% 
-\contentsline {section}{\numberline {6.1}Próximos Passos}{33}% 
-\contentsline {chapter}{Refer\^encias}{34}% 
-\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} A radiação de Cherenkov}{35}% 
-\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Qui-quadrado}{36}% 
+\contentsline {chapter}{\numberline {2}Experimento $\nu $-Angra}{18}% 
+\contentsline {section}{\numberline {2.1}Reator nuclear da usina Angra 2}{19}% 
+\contentsline {section}{\numberline {2.2}O detector $\nu $-Angra}{19}% 
+\contentsline {subsection}{\numberline {2.2.1}Sistemas de \emph {VETO}}{20}% 
+\contentsline {subsection}{\numberline {2.2.2}Detector alvo}{20}% 
+\contentsline {subsection}{\numberline {2.2.3}Tubos Fotomultiplicadores}{20}% 
+\contentsline {section}{\numberline {2.3}Eletrônicas de \emph {front-end} e aquisição}{21}% 
+\contentsline {chapter}{\numberline {3}Dados Reais}{22}% 
+\contentsline {section}{\numberline {3.1}Metodologia de análise dos dados do experimento}{22}% 
+\contentsline {section}{\numberline {3.2}Debug dos dados reais}{24}% 
+\contentsline {section}{\numberline {3.3}Dados da aquisição}{26}% 
+\contentsline {chapter}{\numberline {4}Simulação}{27}% 
+\contentsline {section}{\numberline {4.1}Geant4}{27}% 
+\contentsline {subsection}{\numberline {4.1.1}Construção do detector e parâmetros do experimento}{28}% 
+\contentsline {section}{\numberline {4.2}Geração das partículas}{29}% 
+\contentsline {section}{\numberline {4.3}Simulação inicial}{30}% 
+\contentsline {section}{\numberline {4.4}Correção de bugs}{30}% 
+\contentsline {subsection}{\numberline {4.4.1}Correção das PMTs}{30}% 
+\contentsline {subsection}{\numberline {4.4.2}Transformação de CDFe}{31}% 
+\contentsline {subsection}{\numberline {4.4.3}Qualidade da água}{32}% 
+\contentsline {chapter}{\numberline {5}Resultados}{33}% 
+\contentsline {chapter}{\numberline {6}Conclusão}{35}% 
+\contentsline {section}{\numberline {6.1}Próximos Passos}{35}% 
+\contentsline {chapter}{Refer\^encias}{36}% 
+\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} A radiação de Cherenkov}{37}% 
+\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Qui-quadrado}{38}% 
