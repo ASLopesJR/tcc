@@ -16,7 +16,13 @@ Como o detector é de superfície, para melhorar a relação sinal ruído ele é
 
 \section{Reator nuclear da usina Angra 2}
 
-O reator nuclear da usina Angra 2 é do tipo \ac{PWR}, no qual o sistema de refrigeração é baseado em água bombeada em alta pressão no núcleo do reator, onde é aquecida pela fissão nuclear, que passa por um gerador de se vapor e move turbinas, transformando energia térmica em energia elétrica. Alguns sub-processos da geração térmica são nuclídeos gerados pela fissão nuclear, que através do decaimento beta, formam antineutrinos, que são espalhados em todas as direções.
+O reator nuclear da usina Angra 2 é do tipo \ac{PWR}, no qual o sistema de refrigeração é baseado em água bombeada em alta pressão no núcleo do reator, onde é aquecida pela fissão nuclear, que passa por um gerador de vapor e move turbinas, transformando energia térmica em energia elétrica. Alguns sub-processos da geração térmica são nuclídeos gerados pela fissão nuclear, que através do decaimento beta descrito pela Equação \ref{eq:decay} formam um próton, um elétron e um antineutrino, que é espalhado em qualquer direção.
+
+\begin{equation}
+n \rightarrow p + e^- + \bar{\nu}_e 
+\label{eq:decay}
+\end{equation}
+
 
 \section{O detector $\nu$-Angra} \label{sec:detector}
 
@@ -31,15 +37,12 @@ O detector utilizado dispõe de três sistemas principais que podem ser vistos n
 
 \subsection{Sistemas de \emph{VETO}}
 
-Como o detector $\nu$-Angra é um detector de superfície ele não está imune à radiação advinda do cosmos, se fazendo necessário uma camada de veto para detecção de ruídos de fundo afim de selecionar apenas os eventos de antineutrinos. Cada camada de \emph{VETO} têm 4 PMTs, sendo as do \emph{VETO} superior sendo posicionadas no ponto central de cada aresta, enquanto as do \emph{VETO} lateral ficam na parte superior das faces laterais do detector, somando-se 8 PMTs. O veto lateral é revestido com uma fina camada de aço para bloquear principalmente nêutrons. \url{http://lsd.cbpf.br/doc/dissertacoes/TeseDoutorado_DionRibeiro.2019_05_07.pdf}
+Como o detector $\nu$-Angra é um detector de superfície ele não está imune à radiação advinda do cosmos, se fazendo necessário uma camada de veto para detecção de ruídos de fundo afim de selecionar apenas os eventos de antineutrinos. Cada camada de \emph{VETO} têm 4 PMTs, sendo as do \emph{VETO} superior sendo posicionadas no ponto central de cada aresta, enquanto as do \emph{VETO} lateral ficam na parte superior das faces laterais do detector, somando-se 8 PMTs. O veto lateral é revestido com uma fina camada de aço para bloquear principalmente nêutrons.\cite{dion2019}
 
 \subsection{Detector alvo}
 
 Como eventos de antineutrinos são de baixa energia, para melhor leitura dos eventos, o alvo apresenta 16 PMTs na sua parte inferior e 16 na parte superior, ele é preenchido com água dopada com sal de gadolínio afim de aumentar o número de partículas livres que interagem com antineutrinos através do processo de decaimento beta-inverso. O detector alvo têm volume aproximado de $1$ m$^3$, e tem a carcaça feita de polipropileno.
 
-\begin{equation}
-n \rightarrow p + e^- + \bar{\nu}_e 
-\end{equation}
 
 Devido ao fato da água ser dopada com um sal de gadolínio, este tem como característica o aumento da turbidez, assim diminuindo o caminho médio livre dos fótons e piorando a qualidade da água para o transporte de fotoelétrons.
 
