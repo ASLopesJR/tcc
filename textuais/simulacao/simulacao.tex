@@ -5,9 +5,9 @@ Este capítulo será apresentada a plataforma \ac{Geant4}, interface usada para 
 
 \section{Geant4}
 
-Geant4 é um software de código livre, extensível,  utilizado para simular de forma acurada a passagem de partículas por matéria, todo o escopo de simulação está incluso nas ferramentas do simulador, como construção do detector, materiais, partículas de interesse.
+Geant4 é um software de código livre, extensível,  utilizado para simular de forma acurada a passagem de partículas por matéria, todo o escopo de simulação está incluso nas ferramentas do simulador, como construção do detector, materiais, partículas de interesse \cite{geant4doc}.
 
-Já incluso no cerne do simulador estão inclusos vários modelos físicos para lidar com as interações das partículas por todo uma extensão de níveis energéticos. Construído com uma linguagem orientada à objetos (C++), ele utiliza o método de Monte-Carlo para cálculos, utilizando de métodos estocásticos para resolver as interações determinísticas, do ponto de vista do simulador.
+Já incluso no cerne do simulador estão inclusos vários modelos físicos para lidar com as interações das partículas por todo uma extensão de níveis energéticos. Construído com uma linguagem orientada à objetos (\emph{C++}), ele utiliza o método de Monte-Carlo para cálculos, utilizando de métodos estocásticos para resolver as interações determinísticas, do ponto de vista do simulador.
 
 \begin{figure}[H]
 	\centering
@@ -55,7 +55,7 @@ Estes modelos foram escolhidas devido às interações de interesse na simulaç�
 
 As partículas de simulação foram geradas pela plataforma ROOT, da colaboração do \ac{CERN}, para realizar os cálculos. Para facilitar a simulação dos eventos, ao invés de implementar as pás no simulador, os raios cósmicos são gerados já passando por elas, garantindo o \emph{trigger} do sistema para qualquer evento da lista. 
 
- Na geração das partículas foi utilizado um modelo aleatório de sorteio em histogramas com as distribuições das direções nos eixos $x$,$y$ e $z$ e a posição inicial no plano 3D, (\url{https://github.com/ASLopesJR/NeutrinosAngra/blob/teste-angra/AngraGenerators/muons/muons_pad.cpp}) depois foi calculado em que posição estará a partícula na altura das duas pás e, se ela estiver dentro da área de ambos, salva a partícula. Os eventos salvos podem ser vistos na Figura \ref{fig:geracao}.
+ Na geração das partículas foi utilizado um modelo aleatório de sorteio em histogramas com as distribuições das direções nos eixos $x$,$y$ e $z$ e a posição inicial no plano 3D, \cite{amarogithub} depois foi calculado em que posição estará a partícula na altura das duas pás e, se ela estiver dentro da área de ambos, salva a partícula. Os eventos salvos podem ser vistos na Figura \ref{fig:geracao}.
 
 \begin{figure}[H]
 	\centering

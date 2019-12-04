@@ -5,4 +5,62 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.45.2.1 }
 
+\bibitem[Anjos et al. 2015]{anjos2015using}
+\abntrefinfo{Anjos et al.}{ANJOS et al.}{2015}
+{ANJOS, J. et al. Using neutrinos to monitor nuclear reactors: the angra
+  neutrino experiment, simulation and detector status.
+\emph{Nuclear and Particle Physics Proceedings}, Elsevier, v.~267, p. 108--115,
+  2015.}
+
+\bibitem[Anjos et al. 2012]{anjos2012status}
+\abntrefinfo{Anjos et al.}{ANJOS et al.}{2012}
+{ANJOS, J. et al. Status and perspectives of the neutrino angra project. In:
+  \emph{NuInt12: eighth International Workshop on Neutrino-Nucleus Interactions
+  in the Few-GeV region, Rio de Janeiro Brazil}. [S.l.: s.n.], 2012.}
+
+\bibitem[Babicz et al. 2019]{BABICZ2019554}
+\abntrefinfo{Babicz et al.}{BABICZ et al.}{2019}
+{BABICZ, M. et al. Linearity and saturation properties of hamamatsu r5912-mod
+  photomultiplier tube for the icarus t600 light detection system.
+\emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, v.~936, p.
+  554 -- 555, 2019.
+ISSN 0168-9002.
+Frontier Detectors for Frontier Physics: 14th Pisa Meeting on Advanced
+  Detectors.
+Dispon{\'\i}vel em:
+  $<$http://www.sciencedirect.com/science/article/pii/S0168900218314281$>$.}
+
+\bibitem[Collaboration 2019]{geant4doc}
+\abntrefinfo{Collaboration}{COLLABORATION}{2019}
+{COLLABORATION, G. \emph{Book for Application Developers}. [S.l.]:
+  Documentation, 2019.}
+
+\bibitem[Junior 2019]{amarogithub}
+\abntrefinfo{Junior}{JUNIOR}{2019}
+{JUNIOR, A. da S.~L. \emph{topbottom}. [S.l.]: GitHub, 2019.
+\url{https://github.com/ASLopesJR/NeutrinosAngra}.}
+
+\bibitem[Leo 2012]{leo2012techniques}
+\abntrefinfo{Leo}{LEO}{2012}
+{LEO, W.~R. \emph{Techniques for nuclear and particle physics experiments: a
+  how-to approach}. [S.l.]: Springer Science \& Business Media, 2012.}
+
+\bibitem[Oliveira 2010]{andre2010}
+\abntrefinfo{Oliveira}{OLIVEIRA}{2010}
+{OLIVEIRA, A.
+\emph{Detecção de Antineutrinos para Monitoramento de Reatores Nuleares:
+  Simulação da Reconstrução de eventos e Separação Sinal/Ruído}.
+Dissertação (Mestrado) --- Centro Brasileiro de Pesquisas Físicas, 2010.}
+
+\bibitem[Photonics 1998]{hamamatsu1998photomultiplier}
+\abntrefinfo{Photonics}{PHOTONICS}{1998}
+{PHOTONICS, K. H. \emph{Photomultiplier Tube-R5912}. [S.l.]: Datasheet, 1998.}
+
+\bibitem[Ribiero 2019]{dion2019}
+\abntrefinfo{Ribiero}{RIBIERO}{2019}
+{RIBIERO, D.~B. dos S.
+\emph{Projeto Neutrinos Angra: o detector final}.
+Tese (Doutorado) --- Universidade Federal da Bahia, 2019.}
+
 \end{thebibliography}

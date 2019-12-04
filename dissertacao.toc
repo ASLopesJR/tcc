@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {2.2}O detector $\nu $-Angra}{19}% 
 \contentsline {subsection}{\numberline {2.2.1}Sistemas de \emph {VETO}}{20}% 
 \contentsline {subsection}{\numberline {2.2.2}Detector alvo}{20}% 
-\contentsline {subsection}{\numberline {2.2.3}Tubos Fotomultiplicadores}{20}% 
+\contentsline {subsection}{\numberline {2.2.3}Tubos Fotomultiplicadores}{21}% 
 \contentsline {section}{\numberline {2.3}Eletrônicas de \emph {front-end} e aquisição}{21}% 
 \contentsline {chapter}{\numberline {3}Dados Reais}{22}% 
 \contentsline {section}{\numberline {3.1}Metodologia de análise dos dados do experimento}{22}% 
