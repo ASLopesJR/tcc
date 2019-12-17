@@ -3,7 +3,7 @@
 
 O experimento $\nu$-Angra tem como objetivo a criação de um detector de superfície capaz de detectar antineutrinos advindos da queima de combustível nuclear através da relação entre potência térmica dissipada e a taxa de eventos de antineutrinos registrados pelo detector, assim podendo ter conhecimento da potência de fato sendo dissipada pelo reator durante um período de tempo.
 
-O detector utiliza da radiação de Cherenkov (apêndice \ref{apdx:cherenkov}) na água para fazer a contagem de eventos. Afim de coletar os fótons gerados são utilizados 40 PMTs, do modelo Hamamatsu R5912.
+O detector se utiliza da radiação de Cherenkov na água para fazer a contagem de eventos. A fim de coletar os fótons gerados por este processo físico são utilizados 40 PMTs, do modelo Hamamatsu R5912 \cite{hamamatsu1998photomultiplier}.
 
 Como o detector é de superfície, para melhorar a relação sinal ruído ele é posicionado a poucos metros do reator nuclear da usina Angra 2 em um contêiner-laboratório, como pode ser visto na Figura \ref{fig:angra}.
 
@@ -23,25 +23,27 @@ n \rightarrow p + e^- + \bar{\nu}_e
 \label{eq:decay}
 \end{equation}
 
+A queima de combustível nuclear pode ser medida através do \emph{Fuel Burnup} \cite{fuelburnup}, que define o uso de combustível nuclear e o número de isótopos criados no processo, definido pela energia de fissão liberada por unidade de massa. Dado uma quantidade de combustível dentro do reator, é através do \emph{Fuel Burnup} que se calcula a perda de potência do reator pelo tempo e a necessidade de troca de combustível nuclear. Para a usina Angra 2, a troca de combustível se faz a cada $13$ meses de uso. \cite{eletronuclear}
+
 
 \section{O detector $\nu$-Angra} \label{sec:detector}
 
-O detector utilizado dispõe de três sistemas principais que podem ser vistos na Figura \ref{fig:detector} e serão discutidos em suas sub-sessões, possui volume aproximado de $13$ m$^3$, sendo apenas $\dfrac{1}{10}$ do volume para o detector alvo e o resto dividido em \emph{shielding} e o sistema de veto, ambos para proteger o detector de ruído de fundo como raios cósmicos ou nêutrons.
+O detector utilizado dispõe de três sistemas principais que podem ser vistos na Figura~\ref{fig:detector} e serão discutidos em suas sub-sessões, sendo eles o detector alvo, o \emphe{VETO} lateral e o \emph{VETO} superior; esses dois últimos são empregados para detectar eventos de ruído de fundo, como raios cósmicos ou nêutrons \cite{dion2019}, com o intuito de descartar eventos de não-interesse.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=11cm]{textuais/experimento/figuras/detector.png}
+    \includegraphics[width=9cm]{textuais/experimento/figuras/detector.png}
     \caption{Vista explodida do detector}
     \label{fig:detector}
 \end{figure}
 
 \subsection{Sistemas de \emph{VETO}}
 
-Como o detector $\nu$-Angra é um detector de superfície ele não está imune à radiação advinda do cosmos, se fazendo necessário uma camada de veto para detecção de ruídos de fundo afim de selecionar apenas os eventos de antineutrinos. Cada camada de \emph{VETO} têm 4 PMTs, sendo as do \emph{VETO} superior sendo posicionadas no ponto central de cada aresta, enquanto as do \emph{VETO} lateral ficam na parte superior das faces laterais do detector, somando-se 8 PMTs. O veto lateral é revestido com uma fina camada de aço para bloquear principalmente nêutrons.\cite{dion2019}
+Como o detector $\nu$-Angra é um detector de superfície ele não está imune à radiação advinda do cosmos, se fazendo necessário uma camada de veto para detecção de ruídos de fundo afim de selecionar apenas os eventos de antineutrinos. Cada camada de \emph{VETO} têm 4 PMTs, sendo as do \emph{VETO} superior posicionadas no ponto central de cada aresta, enquanto que as do \emph{VETO} lateral ficam na parte superior das faces laterais do detector, somando-se 8 PMTs. O VETO lateral é revestido com uma fina camada de aço para bloquear principalmente nêutrons \cite{dion2019}.
 
 \subsection{Detector alvo}
 
-Como eventos de antineutrinos são de baixa energia, para melhor leitura dos eventos, o alvo apresenta 16 PMTs na sua parte inferior e 16 na parte superior, ele é preenchido com água dopada com sal de gadolínio afim de aumentar o número de partículas livres que interagem com antineutrinos através do processo de decaimento beta-inverso. O detector alvo têm volume aproximado de $1$ m$^3$, e tem a carcaça feita de polipropileno.
+Como eventos de antineutrinos são de baixa energia, para melhor leitura dos eventos, o alvo apresenta 16 PMTs na sua parte inferior e 16 na parte superior. Ele é preenchido com água dopada com sal de gadolínio a $0.2\%$ em massa  afim de aumentar a probabilidade de captura de nêutrons provenientes do decaimento beta-inverso. O detector alvo têm volume aproximado de $1$ m$^3$, e tem a carcaça feita de polipropileno. 
 
 
 Devido ao fato da água ser dopada com um sal de gadolínio, este tem como característica o aumento da turbidez, assim diminuindo o caminho médio livre dos fótons e piorando a qualidade da água para o transporte de fotoelétrons.
@@ -50,14 +52,13 @@ Devido ao fato da água ser dopada com um sal de gadolínio, este tem como carac
 
 Como mencionado, o modelo definido para as $40$ PMTs do detector é Hamamatsu R5912, elas foram calibradas individualmente para um ganho de $\approx10^7$.
 
-As PMTs têm como característica transformar  \ac{p.e.} em um sinal elétrico, têm características lineares até $\approx 100$ p.e. \url{https://www.sciencedirect.com/science/article/pii/S0168900218314281} e após há saturação e por consequente, perda de eficiência. São capazes de identificar \emph{single photoelectrons} e têm um ruído de fundo (\emph{dark current}) com frequência baixa, cerca de $4$ a $8$ kcps (\emph{kilo counts per second}). 
+As PMTs têm como característica transformar  \ac{p.e.} em um sinal elétrico que possui características lineares até $\approx 100$ p.e. \cite{BABICZ2019554}. São capazes de identificar \emph{single photoelectrons} e têm um ruído de fundo (\emph{dark current}) com taxa entre $4$ e $8$ kcps (\emph{kilo counts per second}) \cite{hamamatsu1998photomultiplier}. 
 
-Como o detector é baseado em efeito Cherenkov na água, as PMTs foram o sensor escolhido para o experimento.
 
 
 \section{Eletrônicas de \emph{front-end} e aquisição}
 
-Para fazer a aquisição dos sinais das PMTs, o detector dispõe de circuitos eletrônicos para condicionamento dos sinais, chamado de \emph{front-end}, e um sistema de aquisição dos dados, chamado de \ac{NDAQ}. Cada PMT tem uma \emph{front-end} conectada à saída de sinal que então estão ligadas em cada um dos oito canais de cada NDAQ, fazendo-se assim $40$ placas de \emph{front-end} e $5$ NDAQs para a aquisição de todas as PMTs do detector.
+Para fazer a aquisição dos sinais das PMTs, o detector dispõe de circuitos eletrônicos para condicionamento dos sinais, chamado de \emph{front-end}, e um sistema de aquisição dos dados, chamado de \ac{NDAQ}. Cada PMT tem um canal de \emph{front-end} conectada à sua saída de sinal que então são enviados a um canal da NDAQ, fazendo-se assim $40$ canais de leitura para a aquisição de todas as PMTs do detector.
 
-Durante todo o tempo os sinais das PMTs são salvos em uma fila do tipo FIFO (do inglês, \emph{first in first out}) nas NDAQs, quando um sinal é detectado o conteúdo das \emph{fifos} é esvaziado, digitalizado pelas NDAQs e salvo em um arquivo para análise prévia.
+Durante todo o tempo os sinais das PMTs são salvos em uma memória do tipo FIFO (do inglês, \emph{first in first out}) nas NDAQs. Quando um evento é selecionado pelo sistema de seleção online (conhecido comumente como sistema de $Trigger$), o conteúdo das FIFOs é enviado para um servidor local onde é salvo para futuras análises. Se o sistema de $Trigger$ não selecionar o evento, os sinais armazenados nas FIFOs são descartados
 
